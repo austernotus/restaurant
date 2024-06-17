@@ -80,6 +80,15 @@ div {
     margin-bottom: 20px;
 }
 
+img{
+    border-radius: 2rem;
+    width: 100%;
+}
+
+#footer{
+    text-align: center;
+}
+
 /* Flexbox Layout */
 #main {
     display: flex;

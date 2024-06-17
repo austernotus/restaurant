@@ -5,12 +5,11 @@ import "./styles.css";
 
 const contentDiv = document.querySelector("#content")
 contentDiv.innerHTML = home;
-console.log("alert")
 
 const homeButton = document.querySelector("#home-button");
 const menuButton = document.querySelector("#menu-button");
 const aboutButton = document.querySelector("#about-button");
-
+const enterButton = document.querySelector("#enter-button");
 
 function homeScreen(){
     contentDiv.innerHTML = home;
@@ -25,4 +24,5 @@ function aboutScreen(){
 homeButton.addEventListener("click", homeScreen)
 menuButton.addEventListener("click", menuScreen)
 aboutButton.addEventListener("click", aboutScreen)
+enterButton.addEventListener("click", menuScreen)
 

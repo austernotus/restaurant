@@ -6,7 +6,7 @@ export default content = `
             </div>
             <div class="item">
                 <img src="/imgs/snail.jpg" alt="photo of a snail">
-                <button>Enter <br><em>(slowly please)</em></button>
+                <button id="enter-button">Enter <br><em>(slowly please)</em></button>
             </div>
             <div>
             </div>
