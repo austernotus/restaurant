@@ -1,6 +1,8 @@
 {
   "devDependencies": {
     "css-loader": "^7.1.2",
+    "file-loader": "^6.2.0",
+    "gh-pages": "^6.1.1",
     "html-webpack-plugin": "^5.6.0",
     "style-loader": "^4.0.0",
     "webpack": "^5.92.0",
@@ -48,7 +50,9 @@
     "utila": "^0.4.0"
   },
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
