@@ -1,4 +1,4 @@
-import home from "./content";
+import {home} from "./content";
 import {menu} from "./menu";
 import {about} from "./about";
 import "./styles.css";
